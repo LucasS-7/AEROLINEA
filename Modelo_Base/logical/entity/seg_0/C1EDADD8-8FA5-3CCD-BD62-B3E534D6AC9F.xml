@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1EDADD8-8FA5-3CCD-BD62-B3E534D6AC9F" name="RESERVA">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:10:59 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_reserva" id="1C41596A-735C-F4CD-5A09-6B5C556E5AAA">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:12:06 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_reserva" id="A206763C-BD9B-E6F4-A47D-A0BD37A9E048">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:12:39 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_viaje" id="A0EB62AB-25B8-B904-FE4F-0B1FF9DA2FD8">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:13:20 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="EE68BA10-90C5-C26C-2513-44A22CE6E84A">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:13:31 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pasajero" id="0D0EBFFC-5013-2704-E2A5-29D73C6A9686">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:17:53 UTC</createdTime>
+<generatorID>F82383D9-1B91-E7DE-CCBD-3AD9B94F7817</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<referedAttribute>4C33DA5A-4144-33AE-1AAC-FCA15B67154B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_vuelo" id="A1C34BA6-B582-8B0D-477D-A41CC2DA4885">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:19:50 UTC</createdTime>
+<generatorID>FF9C6C7B-59D7-903B-5922-E0D35ACCFCCD</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<referedAttribute>1B6942B5-B07F-DD78-6948-0060E96CDA66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="E79C74E8-1CE8-798B-60E0-21D2D88D5017">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:49:52 UTC</createdTime>
+<generatorID>3793B880-578B-BEF6-48CC-F0BABD107C7C</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<referedAttribute>1E52887F-97AF-BB85-6252-738E8204C5E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A06D66C3-6913-FAE4-2B95-48E8558B0818" name="RESERVA PK">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:12:36 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C41596A-735C-F4CD-5A09-6B5C556E5AAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

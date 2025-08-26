@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="un vuelo debe tener un solo" directorySegmentName="seg_0" id="5F772C90-5759-AC6A-84F1-D4BF00617741">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:33:40 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<sourcePk>FA63E6A8-AF5D-56B8-4EC7-50ECAF662B36</sourcePk>
+<targetPk>8D909508-193E-4795-69E2-8598EA68078B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D32FB8E5-5450-33D3-F6EB-55AC993729AE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CAAEB636-5B00-56AB-B8CE-402F07AB137C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

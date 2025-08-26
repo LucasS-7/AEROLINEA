@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0F54C95-D6E6-0653-6BD3-0464D816C0C5" name="EQUIPAJE">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:13:59 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_equipaje" id="BF52D19C-0128-004C-F416-B3387D52E2F6">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:14:07 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="2751B15D-563B-8E7F-14F2-5D29B85754E5">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:15:47 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso_kg" id="1EECAC01-E68D-FFCC-74F3-EEF28AD4726F">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:16:19 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="4397FB9A-A5B6-847A-3B48-BE66901B44CF">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:16:36 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pasajero" id="5D17963E-177C-7A9C-9F52-E21D9D195171">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:54:03 UTC</createdTime>
+<generatorID>38D9703F-F2A0-E310-7C08-9DF627618F0F</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<referedAttribute>4C33DA5A-4144-33AE-1AAC-FCA15B67154B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="203D2A99-98E2-C950-EC19-3C56254C8339" name="EQUIPAJE PK">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:15:31 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF52D19C-0128-004C-F416-B3387D52E2F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

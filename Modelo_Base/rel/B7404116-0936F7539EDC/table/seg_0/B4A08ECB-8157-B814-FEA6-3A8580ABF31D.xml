@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4A08ECB-8157-B814-FEA6-3A8580ABF31D" name="AVION">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>CAAEB636-5B00-56AB-B8CE-402F07AB137C</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula" id="A233E201-9848-EC33-16EE-0C8964AEF294">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>B1543F78-F0C1-B57D-1C13-D22F39981CF9</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="A7FFAE5E-2483-B000-2C39-C1CB70203921">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>F82313BC-8447-F88A-1250-6BE9C5E4C24C</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="5E643659-C3E9-9E7F-AA4D-4EB240BB9B33">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>A2519556-0451-D585-9FD8-E5AF3B742B8D</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad" id="36E15A5B-3E8F-D959-7391-016B1B9F250E">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>036190BA-EF04-D26B-CB52-40850CA24199</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>200</dataTypePrecision>
+<ownDataTypeParameters>,200,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F52C9EA3-3FA3-3F1D-7B3B-D6E0F8702839" name="AVION_PK">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>8D909508-193E-4795-69E2-8598EA68078B</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A233E201-9848-EC33-16EE-0C8964AEF294"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

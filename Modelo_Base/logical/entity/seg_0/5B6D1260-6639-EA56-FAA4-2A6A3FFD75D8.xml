@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B6D1260-6639-EA56-FAA4-2A6A3FFD75D8" name="PILOTO">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 22:07:42 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8B9160A9-D699-09CA-E0FE-BCAB9EA1CF48</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="horas_vuelo" id="87517326-1C6B-2DB2-327F-2B7D204A6319">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 22:07:59 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afp" id="E724FFC1-7D0E-D554-3F77-C643880F920E">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 22:08:59 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

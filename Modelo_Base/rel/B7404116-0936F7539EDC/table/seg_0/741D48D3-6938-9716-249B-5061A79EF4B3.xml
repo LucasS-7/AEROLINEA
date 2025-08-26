@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="741D48D3-6938-9716-249B-5061A79EF4B3" name="PILOTO">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>5B6D1260-6639-EA56-FAA4-2A6A3FFD75D8</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="FF90155B-083A-9A40-4738-E90C38B1B721">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>1E52887F-97AF-BB85-6252-738E8204C5E6</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37FFBCC5-7B8C-E0BD-2A73-2E98C2C9A68D" referredColumn="DC651F43-A09F-0F2C-08A6-7943524C6875"/>
+</associations>
+</Column>
+<Column name="horas_vuelo" id="057CB183-C7B9-F7A7-3A5E-2FA7B05EEAA0">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>87517326-1C6B-2DB2-327F-2B7D204A6319</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="afp" id="BA7D7FD9-98EC-5CB9-D4DA-4F02FA368758">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>E724FFC1-7D0E-D554-3F77-C643880F920E</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4575265-9E14-A599-1239-CA559E5ADFC7" name="PILOTO_PK">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>1B0542BD-F034-21D2-89D3-65941931BAAC</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF90155B-083A-9A40-4738-E90C38B1B721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D96B1B08-7415-5ECA-6154-162DC41E3BA9" name="PILOTO_EMPLEADO_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>E78B91BF-89E1-5CDC-E80E-A47A04BF44BB</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF90155B-083A-9A40-4738-E90C38B1B721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

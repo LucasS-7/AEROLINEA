@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="un piloto puede hacer muchos vuelos" directorySegmentName="seg_0" id="62787F93-01A6-63BA-1102-850EF84C5FF0">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:53:14 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<sourcePk>1B0542BD-F034-21D2-89D3-65941931BAAC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5B6D1260-6639-EA56-FAA4-2A6A3FFD75D8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D32FB8E5-5450-33D3-F6EB-55AC993729AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

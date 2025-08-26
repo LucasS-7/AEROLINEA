@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2E3D772-66D6-EE1E-9D81-4A21385175F0" name="VUELO">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>D32FB8E5-5450-33D3-F6EB-55AC993729AE</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_vuelo" id="E88C4DE1-1725-FA73-C2E0-7D14DE07348C">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>1B6942B5-B07F-DD78-6948-0060E96CDA66</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_despegue" id="FE13159E-57C2-F13D-608D-0A05DEFB52DE">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>AED3667B-C05A-C6F0-E411-CAC3922F6907</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_despegue" id="9463E6FC-0A7E-1F0A-DFBD-3FA494D7BA4A">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>242C12BB-9292-CBD7-3500-1B47CA14D2F7</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_llegada" id="09827DFD-8100-CEF6-8C6E-530D7E000F0D">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>F637FCD8-06CF-3388-D709-FBA4744CC446</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_origen" id="6DB4F756-BA73-DAC5-CD0C-ED22476F937F">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>CD8FDAD0-8CEA-057B-D6A1-540158088DD0</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_destino" id="1ADD1C22-E7AB-A8B8-218A-7CB5DFBBA0A5">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>F58B507D-DEC4-C36D-9348-14BFFB997437</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESERVA_numero_reserva" id="210D1D73-E8CB-6922-8E4D-37410896309F">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>BBCD3601-3142-E0FF-E06B-79D17B791333</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B02AF3D-EDED-C54C-D856-0BA9BC16CFB7" referredColumn="974AA01F-920F-7EF8-B533-F6D29327A39E"/>
+</associations>
+</Column>
+<Column name="AVION_matricula" id="183C0F25-8C54-BC04-D35B-698880F0381E">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>39E26CD7-B26B-4CA9-49CB-ECF63028786D</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A57D7E8-BF01-B9DC-2BDE-859D8A902F68" referredColumn="A233E201-9848-EC33-16EE-0C8964AEF294"/>
+</associations>
+</Column>
+<Column name="PILOTO_rut" id="8DCE262C-3C4D-873F-B249-9441FCAD54EA">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>B54FE12D-5F4D-C02B-4CB4-21BE3B9FF104</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59804DCF-A622-5C50-B4F9-D0DDDF8751BF" referredColumn="FF90155B-083A-9A40-4738-E90C38B1B721"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF034860-1538-C4AF-33BA-EC1053B23DC1" name="VUELO_PK">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>FA63E6A8-AF5D-56B8-4EC7-50ECAF662B36</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E88C4DE1-1725-FA73-C2E0-7D14DE07348C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54D67B23-9D0C-EB98-5543-60A2D09022FF" name="VUELO__IDX">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FF9C6C7B-59D7-903B-5922-E0D35ACCFCCD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="210D1D73-E8CB-6922-8E4D-37410896309F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81B46CE0-B018-550B-3BD5-F2964C858903" name="VUELO_RESERVA_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>FF9C6C7B-59D7-903B-5922-E0D35ACCFCCD</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="210D1D73-E8CB-6922-8E4D-37410896309F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33F25AA4-2BF2-CE86-DC2E-295FAF532C06" name="VUELO_PILOTO_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>62787F93-01A6-63BA-1102-850EF84C5FF0</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DCE262C-3C4D-873F-B249-9441FCAD54EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B1DBF87-E051-F3E0-BDDA-3E5F82FB1CDC" name="VUELO_AVION_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>5F772C90-5759-AC6A-84F1-D4BF00617741</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="183C0F25-8C54-BC04-D35B-698880F0381E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

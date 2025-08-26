@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="puede tener solo un asignado" directorySegmentName="seg_0" id="FF9C6C7B-59D7-903B-5922-E0D35ACCFCCD">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:19:04 UTC</createdTime>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<engineerTo>
+<item key="B7404116-57FA-33BC-991D-0936F7539EDC" value="true"/>
+</engineerTo>
+<sourcePk>A06D66C3-6913-FAE4-2B95-48E8558B0818</sourcePk>
+<targetPk>FA63E6A8-AF5D-56B8-4EC7-50ECAF662B36</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C1EDADD8-8FA5-3CCD-BD62-B3E534D6AC9F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D32FB8E5-5450-33D3-F6EB-55AC993729AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

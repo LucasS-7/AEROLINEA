@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A57D7E8-BF01-B9DC-2BDE-859D8A902F68" containerWithKeyObject="D2E3D772-66D6-EE1E-9D81-4A21385175F0" localFKIndex="1B1DBF87-E051-F3E0-BDDA-3E5F82FB1CDC" name="VUELO_AVION_FK">
+<createdBy>Paola</createdBy>
+<createdTime>2025-08-25 23:56:02 UTC</createdTime>
+<generatorID>5F772C90-5759-AC6A-84F1-D4BF00617741</generatorID>
+<ownerDesignName>Ex1_S2_Grupo10</ownerDesignName>
+<referredTableLongName>AVION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B4A08ECB-8157-B814-FEA6-3A8580ABF31D</referredTableID>
+<keyObject>F52C9EA3-3FA3-3F1D-7B3B-D6E0F8702839</keyObject>
+<referredKeyID>F52C9EA3-3FA3-3F1D-7B3B-D6E0F8702839</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
